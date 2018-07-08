@@ -52,6 +52,10 @@ public class DriverProvider implements Provider<WebDriver> {
 
                 case "chrome":
                     driver = new ChromeDriver(getChromeCapabilities());
+//                    System.setProperty("webdriver.chrome.driver", "/Users/luntan/local/bin/chromedriver");
+//
+//                    driver = new ChromeDriver();
+
                     break;
 
                 case "firefox":

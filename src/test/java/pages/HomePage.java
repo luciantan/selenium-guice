@@ -27,9 +27,8 @@ public class HomePage extends HeaderPage {
      */
     public void goToHomePage(){
         driver.get(applicationUrl);
-        String handle = driver.getWindowHandle();
-        driver.quit();
-        driver = injector.get();
-        driver.get(applicationUrl);
+//        String handle = driver.getWindowHandle();
+//        driver = injector.get();
+//        driver.get(applicationUrl);
     }
 }
